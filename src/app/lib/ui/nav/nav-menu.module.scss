@@ -1,0 +1,57 @@
+//@use '../configs/core/core.scss';
+
+.navbar {
+ // background-color: core.$hero-bg-color;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  @media (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.menuItems {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button {
+  color: white;
+  gap: 8px;
+  border: 0;
+  border-radius: 30px;
+  padding: 1.025rem 1.5rem;
+  //background-color: core.$primary-color;
+  @media (max-width: 768px) {
+    width: 70%;
+  }
+}
+
+.mobileContainer {
+  display: none;
+  @media (max-width: 1199px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.mobileDrawer {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileMenuItem {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.025rem;
+}
+
+.socialMedias {
+  margin-top: 2rem;
+  gap: 1rem;
+}
