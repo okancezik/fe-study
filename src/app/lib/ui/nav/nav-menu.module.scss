@@ -2,11 +2,15 @@
 
 .navbar {
  // background-color: core.$hero-bg-color;
+ a{
+  color: #78350F;
+  text-decoration: none;
+ }
 }
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   @media (max-width: 1199px) {
     display: none;
   }

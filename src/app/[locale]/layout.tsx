@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import NavMenu from "./lib/ui/nav/nav-menu";
+import NavMenu from "../lib/ui/nav/nav-menu";
+import styles from './layout.module.scss';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>
+        <header className={styles.header}>
           <NavMenu />
         </header>
         {children}
