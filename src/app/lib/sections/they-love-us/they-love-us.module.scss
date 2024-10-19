@@ -1,0 +1,26 @@
+.container {
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  @media screen and (max-width: 992px) {
+    padding: 0 2rem;
+  }
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carouselContainer {
+  background-image: url("../../../../../public/they-love-us-bg.png");
+}
+
+.buttons {
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+}

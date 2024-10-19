@@ -1,0 +1,39 @@
+.container{
+    background: #0F172A;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    color: #E2E8F0;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width:992px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.column{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    @media screen and (max-width:992px) {
+        margin: 2rem;
+        align-items: center;
+    }
+}
+
+.icons{
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width:992px) {
+        justify-content: center;
+    }
+}

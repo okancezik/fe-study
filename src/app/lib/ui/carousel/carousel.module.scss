@@ -1,0 +1,39 @@
+.item{
+    border-radius: 20px;
+    border: 1px solid #E2E8F0;
+    box-shadow: 0px 0px 6px 0px #00000012, 0px 10px 15px -3px #0000001A;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #FFFFFF;
+    width: 384px;
+    height: 430px;
+    @media screen and (max-width: 992px) {
+        height: 296px;
+        width: 319px;
+    }
+}
+
+.carouselContainer{
+    margin: 0;
+}
+
+.message{
+    font-size: 24px;
+    line-height: 38px;
+    @media screen and (max-width:992px) {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+}
+
+.who{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.title{
+    font-weight: 400;
+    color: #475569;
+    font-size: 18px;
+}

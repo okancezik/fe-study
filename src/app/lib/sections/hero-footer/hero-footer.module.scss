@@ -1,0 +1,17 @@
+.heroFooterContainer {
+  display: flex;
+  gap: 2rem;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.card {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 768px) {
+    align-items: center;
+    text-align: center;
+  }
+}

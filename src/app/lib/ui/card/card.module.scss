@@ -1,0 +1,36 @@
+.card {
+  border-radius: 10px;
+  border: 1px solid #0f172a;
+  box-shadow: 0px 0px 15px 0px #ffffff12, 0px 25px 50px -12px #ffffff40;
+  width: 394px;
+  @media (max-width: 768px) {
+    width: 256px;
+  }
+}
+
+.cardBody {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 32px 0 32px;
+}
+
+.cardFooter {
+  padding: 32px;
+}
+
+.image {
+  height: auto;
+  width: 546px;
+  @media (max-width: 768px) {
+    width: 256px;
+  }
+}
+
+.imgCard{
+  height: auto;
+  width: 394px;
+  @media (max-width: 768px) {
+    width: 256px;
+  }
+}

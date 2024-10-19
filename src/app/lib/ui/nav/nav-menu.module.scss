@@ -1,7 +1,6 @@
 //@use '../configs/core/core.scss';
 
 .navbar {
- // background-color: core.$hero-bg-color;
  a{
   color: #78350F;
   text-decoration: none;
@@ -29,7 +28,6 @@
   border: 0;
   border-radius: 30px;
   padding: 1.025rem 1.5rem;
-  //background-color: core.$primary-color;
   @media (max-width: 768px) {
     width: 70%;
   }
@@ -58,4 +56,12 @@
 .socialMedias {
   margin-top: 2rem;
   gap: 1rem;
+}
+
+.mobileContainer {
+  display: none;
+  @media (max-width: 1199px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }

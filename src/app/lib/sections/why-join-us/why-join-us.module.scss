@@ -1,0 +1,64 @@
+.container {
+  padding: 10rem 5rem;
+  @media screen and (max-width: 992px) {
+    padding: 2rem;
+  }
+  background-color: white;
+}
+
+.right{
+    gap:2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px #00000012, 0px 20px 25px -5px #0000001a;
+  @media screen and (max-width: 992px) {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+.messages {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 992px) {
+    span {
+      font-size: 16px;
+    }
+  }
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+.video {
+  height: auto;
+  width: Fill (520px);
+  object-fit: cover;
+  @media screen and (max-width: 992px) {
+    width: 329px;
+  }
+}
+
+.videoContainer {
+  background-image: url("../../../../../public/under-video.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 60%;
+  height: auto;
+  @media screen and (max-width: 992px) {
+    display: flex;
+    justify-content: center;
+  }
+}

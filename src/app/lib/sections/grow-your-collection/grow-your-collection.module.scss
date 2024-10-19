@@ -1,0 +1,58 @@
+.container {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  @media screen and (max-width:992px) {
+    padding: 2rem;
+    text-align: center;
+  }
+  background-color: white;
+}
+
+.header {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: auto;
+  width: 944px;
+  @media screen and (max-width: 992px) {
+    width: 361px;
+  }
+}
+
+.buttonItem {
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width:992px) {
+    flex-direction: column;
+  }
+}
+
+.desktop{
+  @media screen and (max-width:992px) {
+    display: none;
+  }
+}
+
+.mobile{
+  @media screen and (min-width:992px) {
+    display: none;
+  }
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}

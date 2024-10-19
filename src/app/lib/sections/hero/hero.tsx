@@ -4,10 +4,11 @@ import styles from "./hero.module.scss";
 import Submessage from "../../atomic/submessage/submessage";
 import Title from "../../atomic/title/title";
 import HeroFooter from "../hero-footer/hero-footer";
+import SecondaryButton from "../../atomic/secondary-button/secondary-button";
 
 const Hero = () => {
   return (
-    <>
+    <div className={styles.container}>
       <div className={styles.heroContainer}>
         <div className={styles.desktopRightColumn}>
           <Title>Collectible Sneakers</Title>
@@ -17,8 +18,8 @@ const Hero = () => {
             amet.
           </Submessage>
           <div style={{ display: "flex", gap: "1rem" }}>
-            <button>Sign Up</button>
-            <p>Watch Demo</p>
+            <SecondaryButton>Sign Up</SecondaryButton>
+            <SecondaryButton style={{border:"0"}}>Watch Demo</SecondaryButton>
           </div>
         </div>
         <div className={styles.desktopHeroImage}>
@@ -33,7 +34,7 @@ const Hero = () => {
         />
       </div>
       <HeroFooter />
-    </>
+    </div>
   );
 };
 

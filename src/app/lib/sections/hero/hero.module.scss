@@ -1,10 +1,15 @@
 //@use '../configs/core/core.scss';
 
+.container{
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
 
 .heroContainer {
   //width: 100%;
   display: flex;
-  padding: 5rem;
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
   }

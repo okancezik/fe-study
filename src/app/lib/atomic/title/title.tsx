@@ -1,13 +1,14 @@
 import React from 'react'
-import style from './title.module.scss';
+import styles from './title.module.scss';
 
 interface TitleProps{
     children:string;
+    style?: React.CSSProperties;
 }
 
-const Title = ({children}:TitleProps) => {
+const Title = ({children,style}:TitleProps) => {
   return (
-    <span className={style.title}>{children}</span>
+    <span className={styles.title} style={style} >{children}</span>
   )
 }
 

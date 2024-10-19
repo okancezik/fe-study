@@ -1,7 +1,8 @@
 import React from "react";
-import styles from "./hero.module.scss";
+import styles from "./hero-footer.module.scss";
 import Image from "next/image";
 import Submessage from "../../atomic/submessage/submessage";
+import Title from "../../atomic/title/title";
 
 interface CardItem {
   icon: string;
@@ -37,7 +38,7 @@ const HeroFooter = () => {
         {items.map((item) => (
           <div key={item.title} className={styles.card}>
             <Image src={item.icon} alt="icon" width={45} height={45} />
-            <p>{item.title}</p>
+            <Title style={{fontSize:"20px", lineHeight:"22px",fontWeight:"500"}}>{item.title}</Title>
             <Submessage>{item.subtitle}</Submessage>
           </div>
         ))}
